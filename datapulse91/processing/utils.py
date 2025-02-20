@@ -61,8 +61,28 @@ def detect_and_load_file(file_path, verbose):
     if not data:
         logger.warning(f"Aucun contenu valide extrait de {file_path}")
         raise RuntimeError(f"Le fichier {file_path} semble vide ou illisible")
-
     return data
+
+def filter_data(data, filter_text):
+    """
+    Filtre les lignes contenant un texte donné
+    :param data: Liste des lignes à filtrer
+    :param filter_text: Mot-clé à rechercher
+    :return: Liste des lignes filtrées
+    :raises ValueError: Si aucune ligne ne correspond
+    """
+    if not filter_text:
+        logger.debug("Aucun mot clé fourni, retour des données brutes")
+        return data
+
+    filtered_data = [line for line in data if filter_text.lower() in str(line).lower()]
+
+    if not filtered_data:
+        logger.warning(f"Aucune ligne ne contient {filter_text}")
+        raise ValueError(f"Aucune ligne ne contient {filter_text}")
+
+    logger.info(f"{len(filtered_data)} lignes trouvées après filtrage")
+    return filtered_data
 
 
 def display_data(data, limit):

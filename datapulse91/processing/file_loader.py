@@ -48,6 +48,8 @@ def load_csv_file(filepath, delimiter=","):
                 yield row
     except Exception as e :
         logger.error(f"Erreur lecture fichier csv {filepath}: {e}")
+
+
 def load_json_file(filepath):
     """
     Charge un fichier JSON et retourne son contenu

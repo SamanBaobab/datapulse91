@@ -4480,3 +4480,59 @@
 2025-02-20 12:22:41,078 - DEBUG - Temps de chargement: 0.070 sec - utils.py - 58 - datapulse91
 2025-02-20 12:22:41,078 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
 2025-02-20 12:22:41,078 - INFO - Apercu des données - utils.py - 75 - datapulse91
+2025-02-20 14:50:24,229 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 14:50:24,371 - WARNING - Aucune ligne ne contient Sophie - utils.py - 81 - datapulse91
+2025-02-20 14:50:24,371 - ERROR - Erreur dans filter_file: Aucune ligne ne contient Sophie - filter.py - 22 - datapulse91
+2025-02-20 14:51:32,824 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 14:51:32,963 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 14:52:18,053 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 14:52:18,190 - WARNING - Aucune ligne ne contient Sophie - utils.py - 81 - datapulse91
+2025-02-20 14:52:18,190 - ERROR - Erreur dans filter_file: Aucune ligne ne contient Sophie - filter.py - 22 - datapulse91
+2025-02-20 14:53:57,771 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 14:53:57,910 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 14:59:52,936 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 14:59:53,077 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:04:36,923 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:04:37,060 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:05:52,518 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:06:28,751 - DEBUG - Mode verbose activé - utils.py - 17 - datapulse91
+2025-02-20 15:06:28,752 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:06:28,821 - DEBUG - Temps de chargement: 0.069 sec - utils.py - 58 - datapulse91
+2025-02-20 15:06:28,821 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
+2025-02-20 15:06:28,821 - INFO - Apercu des données - utils.py - 92 - datapulse91
+2025-02-20 15:08:30,435 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:08:30,572 - WARNING - Aucune ligne ne contient sophie - utils.py - 80 - datapulse91
+2025-02-20 15:08:30,572 - ERROR - Erreur dans filter_file: Aucune ligne ne contient sophie - filter.py - 22 - datapulse91
+2025-02-20 15:08:34,170 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:08:34,307 - INFO - 5033 lignes trouvées après filtrage - utils.py - 83 - datapulse91
+2025-02-20 15:09:07,911 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:09:08,051 - INFO - 5033 lignes trouvées après filtrage - utils.py - 83 - datapulse91
+2025-02-20 15:10:09,890 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:10:10,031 - INFO - 5033 lignes trouvées après filtrage - utils.py - 83 - datapulse91
+2025-02-20 15:10:10,035 - INFO - Apercu des données - utils.py - 93 - datapulse91
+2025-02-20 15:21:12,760 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:21:12,896 - INFO - 5033 lignes trouvées après filtrage - utils.py - 83 - datapulse91
+2025-02-20 15:23:30,488 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:23:30,626 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:23:30,629 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 15:23:44,633 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:23:44,769 - WARNING - Aucune ligne ne contient sophie - utils.py - 81 - datapulse91
+2025-02-20 15:23:44,769 - ERROR - Erreur dans filter_file: Aucune ligne ne contient sophie - filter.py - 27 - datapulse91
+2025-02-20 15:25:28,950 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:25:29,085 - INFO - 4953 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:25:29,088 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 15:27:10,342 - DEBUG - Mode verbose activé - utils.py - 17 - datapulse91
+2025-02-20 15:27:10,342 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:27:10,411 - DEBUG - Temps de chargement: 0.069 sec - utils.py - 58 - datapulse91
+2025-02-20 15:27:10,411 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
+2025-02-20 15:27:10,478 - INFO - 4953 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:27:10,481 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 15:27:24,285 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:27:24,420 - WARNING - Aucune ligne ne contient sophie - utils.py - 81 - datapulse91
+2025-02-20 15:27:24,420 - ERROR - Erreur dans filter_file: Aucune ligne ne contient sophie - filter.py - 23 - datapulse91
+2025-02-20 15:27:38,264 - DEBUG - Mode verbose activé - utils.py - 17 - datapulse91
+2025-02-20 15:27:38,264 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:27:38,335 - DEBUG - Temps de chargement: 0.071 sec - utils.py - 58 - datapulse91
+2025-02-20 15:27:38,336 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
+2025-02-20 15:27:38,402 - INFO - 4953 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:27:38,405 - INFO - Apercu des données - utils.py - 95 - datapulse91
