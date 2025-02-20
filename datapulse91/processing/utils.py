@@ -96,3 +96,23 @@ def display_data(data, limit):
     for i, line in enumerate(data[:limit]):
         print(line)
         print()
+
+
+def save_output(data, output_path):
+    """
+    Enregistre les résultats dans un fichier.
+    :param data: list[str] | list[Any] - Liste des données à enregistrer.
+    :param output_path: str - Chemin du fichier où enregistrer les résultats.
+
+    :raises OSError: Si une erreur d'écriture se produit (ex: permission refusée, espace disque insuffisant).
+    :raises TypeError: Si `data` n'est pas une liste.
+    """
+
+    try:
+        with open(output_path, "w", encoding="utf-8") as f:
+            for line in data:
+                f.write(str(line) + "\n")
+        logger.info(f"💾 Résultats enregistrés dans '{output_path}'.")
+    except Exception as e:
+        logger.error(f" Erreur lors de l'enregistrement des résultats : {e}")
+        raise

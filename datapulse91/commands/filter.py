@@ -1,4 +1,4 @@
-from datapulse91.processing.utils import detect_and_load_file, display_data, filter_data
+from datapulse91.processing.utils import detect_and_load_file, display_data, filter_data, save_output
 from datapulse91.logging_config import logger
 
 
@@ -14,6 +14,11 @@ def filter_data_command(args):
 
         # Appliquer le filtre
         data = filter_data(data, args.keyword)
+
+        if args.output:
+            save_output(data, args.output)
+            print(f"💾 Résultats enregistrés dans {args.output}")
+            return  # Fin ici pour éviter l'affichage
 
         # Afficher les résultats
         limit = len(data)
@@ -31,5 +36,6 @@ def register_subcommand(subparsers):
     parser=subparsers.add_parser("filter", help="Recherche et affiche les lignes filtrées")
     parser.add_argument("--file", type=str, required=True, help="Fichier à analyser")
     parser.add_argument("--keyword", type=str, required=True, help="Mot clé à rechercher")
+    parser.add_argument("--output", type=str, help="Nom du fichier de sortie (optionnel)")
     parser.add_argument("--verbose", action="store_true", help="Mode verbeux (DEBUG) ")
     parser.set_defaults(func=filter_data_command)
