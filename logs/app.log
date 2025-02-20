@@ -4536,3 +4536,13 @@
 2025-02-20 15:27:38,336 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
 2025-02-20 15:27:38,402 - INFO - 4953 lignes trouvées après filtrage - utils.py - 84 - datapulse91
 2025-02-20 15:27:38,405 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 15:36:28,038 - DEBUG - Mode verbose activé - utils.py - 17 - datapulse91
+2025-02-20 15:36:28,038 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 15:36:28,106 - DEBUG - Temps de chargement: 0.068 sec - utils.py - 58 - datapulse91
+2025-02-20 15:36:28,106 - DEBUG - Nombres de lignes chargées: 50000 - utils.py - 59 - datapulse91
+2025-02-20 15:36:28,173 - INFO - 4953 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-20 15:36:28,176 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 16:16:48,422 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 16:16:48,493 - INFO - Apercu des données - utils.py - 95 - datapulse91
+2025-02-20 16:17:35,023 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-20 16:17:35,096 - INFO - Apercu des données - utils.py - 95 - datapulse91
