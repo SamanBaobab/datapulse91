@@ -4551,3 +4551,6 @@
 2025-02-20 17:30:52,989 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
 2025-02-20 17:30:53,126 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
 2025-02-20 17:30:53,136 - INFO - 💾 Résultats enregistrés dans 'resultats.txt'. - utils.py - 115 - datapulse91
+2025-02-21 11:00:06,518 - INFO - Type detecté : CSV  - utils.py - 49 - datapulse91
+2025-02-21 11:00:06,655 - INFO - 5033 lignes trouvées après filtrage - utils.py - 84 - datapulse91
+2025-02-21 11:00:06,667 - INFO - 💾 Résultats enregistrés dans 'resultats.txt'. - utils.py - 115 - datapulse91

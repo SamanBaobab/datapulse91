@@ -17,7 +17,7 @@ def filter_data_command(args):
 
         if args.output:
             save_output(data, args.output)
-            print(f"💾 Résultats enregistrés dans {args.output}")
+            print(f"Résultats enregistrés dans {args.output}")
             return  # Fin ici pour éviter l'affichage
 
         # Afficher les résultats
