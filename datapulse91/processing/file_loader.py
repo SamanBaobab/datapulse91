@@ -33,13 +33,14 @@ def load_text_file(filepath):
                 yield line.strip()
     except Exception as e :
         logger.error(f"Erreur de lecture TXT {filepath}: {e}")
+
 def load_csv_file(filepath, delimiter=","):
     """
     Lit un fichier csv et retourne un générateur de lignes
     sous forme de dictionnaire
-    :param filepath: chemin fichier
-    :param delimiter: séparateur
-    :return: dictionnaire
+    :param filepath: chemin fichier csv
+    :param delimiter: séparateur par défaut ","
+    :yield: Dictionnaire représentant une ligne du fichier
     """
     try:
         with open(filepath, 'r', encoding='utf-8') as file :
@@ -53,12 +54,17 @@ def load_csv_file(filepath, delimiter=","):
 def load_json_file(filepath):
     """
     Charge un fichier JSON et retourne son contenu
-    :param filepath: chemin fichier
-    :return: objet désérialiser
+    :param filepath: chemin fichier json
+    :yield: Objets du JSON si le fichier contient une liste
     """
     try:
         with open(filepath, 'r', encoding='utf-8') as file :
-            return json.load(file)
+            data=json.load(file)
+            if isinstance(data, list):
+                for obj in data :
+                    yield obj
+            else:
+                logger.error(f"Le fichier JSON {filepath} ne contient pas liste objets")
     except Exception as e :
         logger.error(f"Erreur lecture fichier json {filepath}; {e}")
 
