@@ -92,4 +92,5 @@ def analyze_transactions(json_path, chunk_size=1000):
     }
 
 
-print(analyze_transactions("../../../data/transactions.json"))
+if __name__=="__main__":
+    print(analyze_transactions("../../../data/transactions.json"))
