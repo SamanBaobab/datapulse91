@@ -34,5 +34,5 @@ if __name__ == "__main__":
                                                        #"transactions")
     client_viz = VisualizerFactory.get_visualizer(fake_client_results,
                                                        "clients")
-    #client_viz.plot("client_distribution")
+    #client_viz.plot("inactive_clients")
     client_viz.generate_pdf("clients_report.pdf")
